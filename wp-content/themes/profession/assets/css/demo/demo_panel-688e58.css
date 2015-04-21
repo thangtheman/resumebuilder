@@ -1,0 +1,108 @@
+#options_panel .color_suggestions .gray { background: transparent url("../../img/32/gray.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .green { background: transparent url("../../img/32/green.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .brown { background: transparent url("../../img/32/brown.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .yellow { background: transparent url("../../img/32/yellow.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .orange { background: transparent url("../../img/32/orange.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .red { background: transparent url("../../img/32/red.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .purple { background: transparent url("../../img/32/purple.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .blue { background: transparent url("../../img/32/blue.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bgray { background: transparent url("../../img/32/bgray.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bgreen { background: transparent url("../../img/32/bgreen.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bbrown { background: transparent url("../../img/32/bbrown.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .byellow { background: transparent url("../../img/32/byellow.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .borange { background: transparent url("../../img/32/borange.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bred { background: transparent url("../../img/32/bred.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bpurple { background: transparent url("../../img/32/bpurple.jpg.png") center no-repeat;}
+#options_panel .color_suggestions .bblue { background: transparent url("../../img/32/bblue.jpg.png") center no-repeat;}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	Demo Navigation
+/*-----------------------------------------------------------------------------------*/
+
+#options_panel {width:195px; position:fixed; left: -195px; top: 115px; margin-left: 0; z-index:9999; opacity:0.9; }
+#options_panel h3 { width: 39px; height: 155px; position: absolute; top:50px; right: -39px; margin: 0;  cursor: pointer; background:transparent url("../../img/wrench.png") no-repeat center center;}
+#options_panel h3 span {margin:5px 0 0 8px;}
+#options_panel .Settings { font-size:14px; text-transform: capitalize; color:#B1B1B1;}
+#options_panel .options { background-color:#fff; padding:13px;}
+#options_panel h5 {text-transform: capitalize;}
+#options_panel h5, #options_panel .options { color:#666;}
+
+#options_panel select {width:100%; font-size:10px; text-transform:uppercase; color:#ccc; background:#f1f1f1; border-top:2px solid #e5e5e5; border-left:2px solid #e5e5e5; outline:none !important; height: 35px; }
+#options_panel input[type="text"] {width:50px; font-size:10px; text-transform:uppercase; color:#b1b1b1; background:#fff; padding:2px; border:1px solid #c6c6c6; border-radius: 3px; outline:none !important; height:17px; vertical-align:top; }
+
+#options_panel .dark_light_demo {list-style: none;margin: 0;padding: 0;}
+#options_panel .dark_light_demo li {cursor: pointer; float: left; height: 28px; margin: 2px; width: 160px;  text-align:center; padding-top: 5px; font-weight: 600;}
+
+#options_panel .style_demo {list-style: none;margin: 0;padding: 0;}
+#options_panel .style_demo li { background-color:#f1f1f1; border: 1px solid #dcdcdc; color:#7c7c7c; cursor: pointer; float: left; height: 28px; margin: 2px; width: 85px;  text-align:center; font-weight: 600;}
+#options_panel .style_demo li a:hover , #options_panel .style_demo li a { color:#7c7c7c; height:30px; display:block; padding-top:5px; }
+
+#options_panel .color_suggestions {list-style: none; margin: 0;padding: 0; }
+#options_panel .color_suggestions li {cursor: pointer; float: left; height: 32px; margin: 4px; width: 32px; border:1px solid #d3d3d3;}
+
+#options_panel .note {margin-top:10px;}
+
+#options_panel .color_picker_box { float:right;}
+#options_panel  .color_picker_title { float:left; font-size: 12px; color: #b1b1b1; padding: 2px 3px 14px; font-weight: 500;line-height:18px;}
+#options_panel td { padding:6px 0 12px;}
+#options_panel .last { padding: 20px 0 10px 0; border-bottom: none;}
+
+
+#options_panel .options  .text {
+	float:left;
+	margin:0 0 0 10px;
+}
+
+#options_panel .options .icon1 , #options_panel .options .icon2 , #options_panel .options .icon3 , #options_panel .options .icon4{
+	height:19px; 
+	width:19px;
+	display:block; 
+	float:left;
+	margin:0 0 0 5px;
+}
+
+#options_panel .options .icon1 {
+	background:url("../../img/demo/profession1.png") left center no-repeat; 
+}
+
+#options_panel .options .icon2 {
+	background:url("../../img/demo/profession2.png") left center no-repeat; 
+}
+
+#options_panel .options .icon3 {
+	background:url("../../img/demo/profession3.png") left center no-repeat; 
+}
+
+#options_panel .options .icon4 {
+	background:url("../../img/demo/profession4.png") left center no-repeat; 
+}
+
+#options_panel .options .dark_light_demo li {
+	background-color:#fff; 
+	border: 1px solid #b6b6b6; 
+	border-radius:5px;
+	color:#b6b6b6;
+	
+	
+	-moz-transition:background-color 200ms;
+	-o-transition:background-color 200ms;
+	-webkit-transition:background-color 200ms;
+	transition:background-color 200ms;
+}
+
+#options_panel .options .dark_light_demo li  a {
+	color:#b6b6b6 !important;
+	font-size:11px;
+}
+
+#options_panel .options .dark_light_demo li:hover {
+	background-color:#464646; 
+}
+
+
+
+
+
+
+
