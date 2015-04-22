@@ -14,7 +14,7 @@ $(document).ready(function() {
         var $newItemButton = $('#edit-1');
         var $newItemForm = $('#newItemForm');
         var $textInput = $('input:text');
-
+        var nam
         $newItemButton.show();
         $newItemForm.hide();
 
@@ -35,3 +35,4 @@ $(document).ready(function() {
 
     });
 });
+

@@ -23,6 +23,7 @@
     <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script type="text/javascript" src="js/thang.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -37,8 +38,8 @@
     <header>
         <!-- Logo -->
         <div id="logo">
-            <h2>ANDERSON SMITH</h2>
-            <h4>GRAPHIC & WEB DESIGNER</h4>
+            <h2 id="name">ANDERSON SMITH</h2>
+            <h4 id="role">GRAPHIC & WEB DESIGNER</h4>
         </div>
         <!-- /Logo -->
 
@@ -71,6 +72,7 @@
                 <h3>GRAPHIC & WEB DESIGNER</h3>
                 <p>I like to make cool and creative designs. My design stash is always full of refreshing ideas. Feel free to take a look around my Vcard.</p>
             </div>
+
             <!-- /About section -->
 
             <!-- Personal info section -->
@@ -355,15 +357,36 @@
     <footer>
 
         <div class="copyright">Copyright © 2013 John Smith</>
-            <br></br>
-            <button input-type="submit" id="edit-1">Create Your Own Resume Site</button>
+
             </div>
+        <br></br>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+            Create Your Own Resume Site
+        </button>
 
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                    </div>
+                    <div class="modal-body">
+                         <form id="newItemForm">
+                        <input type="text" id="itemDescription" placeholder="Add description..." />
+                        <input type="submit" id="addButton" value="add" />
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-                <form id="newItemForm">
-                    <input type="text" id="itemDescription" placeholder="Add description..." />
-                    <input type="submit" id="addButton" value="add" />
-                </form>
 
     </footer>
     <!-- /Footer -->
