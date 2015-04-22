@@ -1639,7 +1639,7 @@ select:focus:invalid:focus {
 .form-actions:after {
   display: table;
   line-height: 0;
-  content: "";
+  content: "blah blah blah";
 }
 
 .form-actions:after {

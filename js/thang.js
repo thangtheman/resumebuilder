@@ -10,7 +10,7 @@ $(document).ready(function() {
     //});
 
     $(function() {
-
+//What happen when click
         var $newItemButton = $('#edit-1');
         var $newItemForm = $('#newItemForm');
         var $textInput = $('input:text');
@@ -18,12 +18,24 @@ $(document).ready(function() {
         $newItemButton.show();
         $newItemForm.hide();
 
+
+
+
+//what inside the form
+
         $('#edit-1').on('click', function(){
             $newItemButton.hide();
             $newItemForm.show();
         });
 
 
+
+
+
+
+
+
+        //Click Submit
         $newItemForm.submit(function(e){
             e.preventDefault();
             var newText = $textInput.val();
