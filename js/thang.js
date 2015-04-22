@@ -10,7 +10,7 @@ $(document).ready(function() {
     $(function() {
         $( "#inputBirthday" ).datepicker({
             changeMonth: true,
-            changeYear: true,
+            changeYear: true
 
         });
     });
@@ -25,12 +25,12 @@ var name, role, aboutMe, email, birthday, address, phone, web, file;
             address = $('#inputAddress').text();
             phone = $('#inputPhone').text();
             web = $('#inputWeb').url();
+        console.log(name)
     // After click submit the change
-
-        }
-
-
-    )
+    //
+            $('#logo').replace("ANDERSON SMITH", name);
+            alert(name);
+        })
 
 
 
