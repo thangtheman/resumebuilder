@@ -7,17 +7,31 @@ $(document).ready(function() {
     //$('#edit-1').click(function () {
     //    $('#editing-form').text("test");
     //});
+    $(function() {
+        $( "#inputBirthday" ).datepicker({
+            changeMonth: true,
+            changeYear: true,
 
-var name;
+        });
+    });
+var name, role, aboutMe, email, birthday, address, phone, web, file;
     //Click the button:
-    $('#formSubmit').submit(function(){
+    $('#form-submit').submit(function(){
             name = $('#inputName').text();
+            role = $('#inputRole').text();
+            aboutMe = $('#inputAboutme').text();
+            email = $('#inputEmail').text();
+            birthday = $('#inputBirthday').val();
+            address = $('#inputAddress').text();
+            phone = $('#inputPhone').text();
+            web = $('#inputWeb').url();
+    // After click submit the change
 
         }
 
 
     )
-console.log(name+"   test");
+
 
 
 

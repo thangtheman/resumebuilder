@@ -22,9 +22,12 @@
     <script type="text/javascript" src="js/plugins.js"></script>
     <script type="text/javascript" src="js/custom.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
-    <script type="text/javascript" src="js/thang.js"></script>
-    <script type="text/javascript" src="js/bootstrap.js"></script>
 
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <link rel="stylesheet" href="/resources/demos/style.css">
+    <script type="text/javascript" src="js/thang.js"></script>
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -377,40 +380,40 @@
 
                             <div class="form-group">
                                 <label for="name">Your Name</label>
-                                <input type="text" class="form-control" id="inputName" placeholder="ie: Steve Jobs">
+                                <input type="text" class="form-control" id="inputName" placeholder="ie: Steve Jobs" >
                             </div>
                             <div class="form-group">
                                 <label for="role">What do you do?</label>
-                                <input type="text" class="form-control" id="inputRole" placeholder="ie: Web Developer">
+                                <input type="text" class="form-control" id="inputRole" placeholder="ie: Web Developer" >
                             </div>
                             <div class="form-group col-xs-1">
                                 <label for="aboutMe" >Tell the world what you want them to know</label>
-                                <textarea type="email" class="form-control col-xs-1" row="1" id="inputAboutme" placeholder="ie:I am Steve Jobs, want to know more?? Google me">
+                                <textarea type="text" class="form-control col-xs-1" row="1" id="inputAboutme" placeholder="ie:I am Steve Jobs, want to know more?? Google me" >
                             </textarea></div>
                             <div class="form-group">
                                 <label for="inputEmail">Email</label>
-                                <input type="text" class="form-control" id="inputEmail" placeholder="ie: Steve-Jobs@EMAIL.com">
+                                <input type="email" class="form-control" id="inputEmail" placeholder="ie: Steve-Jobs@EMAIL.com" >
                             </div>
                             <div class="form-group">
-                                <label for="inputBirthday">Birthday</label>
-                                <input type="datetime" class="form-control" id="inputBirthday" placeholder="ie: June 23, 1988">
+                                <label  for="inputBirthday">Birthday</label>
+                                <input type="datetime" class="btn btn-lg btn-danger datepicker" id="inputBirthday" placeholder="ie: June 23, 1988">
                             </div>
                             <div class="form-group">
                                 <label for="inputAddress">Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="ie: 1 Mansion House, Beverly, CA">
+                                <input type="text" class="form-control" id="inputAddress" placeholder="ie: 1 Mansion House, Beverly, CA" >
                             </div>
                             <div class="form-group">
                                 <label for="inputPhone">Phone</label>
-                                <input type="text" class="form-control" id="inputPhone" placeholder="ie: (999)-999-999">
+                                <input type="text" class="form-control" id="inputPhone" placeholder="ie: (999)-999-999" >
                             </div>
                             <div class="form-group">
                                 <label for="inputWeb">Website</label>
-                                <input type="url" class="form-control" id="inputWeb" placeholder="ie: www.rockme.com">
+                                <input type="url" class="form-control" id="inputWeb" placeholder="ie: www.rockme.com" >
                             </div>
-                            <div class="form-group">
-                                <label for="exampleInputFile">File input</label>
-                                <input type="file" id="exampleInputFile">
+                        <span class="file-input btn btn-primary btn-file">
+                Browse&hellip; <input type="file" multiple>
                             </div>
+                        </div>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
