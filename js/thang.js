@@ -14,22 +14,38 @@ $(document).ready(function() {
 
         });
     });
-var name, role, aboutMe, email, birthday, address, phone, web, file;
+var name, role, aboutMe, email, birthday, address, phone, picture;
     //Click the button:
     $('#form-submit').submit(function(){
-            name = $('#inputName').text();
-            role = $('#inputRole').text();
-            aboutMe = $('#inputAboutme').text();
-            email = $('#inputEmail').text();
+            name = $('#inputName').val();
+            role = $('#inputRole').val();
+            aboutMe = $('#inputAboutme').val();
+            email = $('#inputEmail').val();
             birthday = $('#inputBirthday').val();
-            address = $('#inputAddress').text();
-            phone = $('#inputPhone').text();
-            web = $('#inputWeb').url();
+            address = $('#inputAddress').val();
+            phone = $('#inputPhone').val();
+            picture = $('inputPicture').val()
+
         console.log(name)
     // After click submit the change
     //
-            $('#logo').replace("ANDERSON SMITH", name);
-            alert(name);
+    //    $("html").each(function() {
+    //        var text = $(this).html();
+    //        text = text.replace("ANDERSON SMITH", name);
+    //        $(this).html(text);
+    //    });
+        $('.oName').html(name);
+        $('.oRole').html(role);
+        $('.oAboutMe').html(aboutMe);
+        $('.oEmail').html(email);
+        $('.oAddress').html(address);
+        $('.oPhone').html(phone);
+        $( ".src" ).replaceWith(picture)
+
+
+
+
+        $('#myModal').modal('hide');
         })
 
 

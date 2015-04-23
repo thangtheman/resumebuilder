@@ -47,8 +47,8 @@
     <header>
         <!-- Logo -->
         <div id="logo">
-            <h2>ANDERSON SMITH</h2>
-            <h4>GRAPHIC & WEB DESIGNER</h4>
+            <h2 class="oName">ANDERSON SMITH</h2>
+            <h4 class="oRole"">GRAPHIC & WEB DESIGNER</h4>
         </div>
         <!-- /Logo -->
 
@@ -73,24 +73,24 @@
             <div class="about">
                 <div class="photo-inner">
                     <ul>
-                        <li><img class="xyz" src="images/photo.jpg" height="186" width="153" /></li>
-                        <li><img class="xyz" src="images/photo1.png" height="186" width="153" /></li>
+                        <li class="oPicture"><img src="images/photo.jpg" height="186" width="153" /></li>
+                        <li class="oPicture"><img src="images/photo1.png" height="186" width="153" /></li>
                     </ul>
                 </div>
-                <h1>ANDERSON SMITH</h1>
-                <h3>GRAPHIC & WEB DESIGNER</h3>
-                <p>I like to make cool and creative designs. My design stash is always full of refreshing ideas. Feel free to take a look around my Vcard.</p>
+                <h1 class="oName">ANDERSON SMITH</h1>
+                <h3 class="oRole">GRAPHIC & WEB DESIGNER</h3>
+                <p class="oAboutMe">I like to make cool and creative designs. My design stash is always full of refreshing ideas. Feel free to take a look around my Vcard.</p>
             </div>
+
             <!-- /About section -->
 
             <!-- Personal info section -->
             <ul class="personal-info">
-                <li><label>Name</label><span>Anderson smith</span></li>
-                <li><label>Birthday</label><span>March 13, 1988</span></li>
-                <li><label>Address</label><span>Melbourne Victoria 3000 Australia</span></li>
-                <li><label>Email</label><span class="word-wrap">Anderson.smith@gmail.com</span></li>
-                <li><label>Phone</label><span>+123 456 789 111</span></li>
-                <li><label>Website</label><span class="word-wrap"><a href="index.html#">www.Andersonsmith.com</a></span></li>
+                <li><label>Name</label><span class="oName">Anderson smith</span></li>
+                <li><label>Birthday</label><span class="oBirthday">March 13, 1988</span></li>
+                <li><label>Address</label><span class="oAddress">Melbourne Victoria 3000 Australia</span></li>
+                <li><label>Email</label><span class="word-wrap oEmail">Anderson.smith@gmail.com</span></li>
+                <li><label>Phone</label><span class="oPhone">+123 456 789 111</span></li>
             </ul>
             <!-- /Personal info section -->
         </div>
@@ -443,20 +443,19 @@
                                 <input type="text" class="form-control" id="inputPhone" placeholder="ie: (999)-999-999" >
                             </div>
                             <div class="form-group">
-                                <label for="inputWeb">Website</label>
-                                <input type="url" class="form-control" id="inputWeb" placeholder="ie: www.rockme.com" >
+                                <label for="inputPicture">Picture link</label>
+                                <input type="text" class="form-control" id="inputPicture" placeholder="ie: images/photo.jpg" >
                             </div>
-                        <span class="file-input btn btn-primary btn-file">
-                Browse&hellip; <input type="file" multiple>
+
+
                         </div>
                     </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary" >Submit Changes</button>
+                    </div>
             </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="submit" class="btn btn-primary">Submit Changes</button>
-            </div>
-        </div>
-        </form>
+            </form>
         </div>
         </div>
 
