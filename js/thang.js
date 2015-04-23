@@ -41,9 +41,9 @@ var name, role, aboutMe, email, birthday, address, phone, picture;
         $('.oAddress').html(address);
         $('.oPhone').html(phone);
         $( ".src" ).replaceWith(picture);
+        $(".cw-inner").css({'background-image': 'url(' + profilePhoto + ')'});
 
-
-
+// After clicking submit
 
         $('#myModal').modal('hide');
         })
