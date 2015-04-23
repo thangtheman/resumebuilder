@@ -40,7 +40,7 @@ var name, role, aboutMe, email, birthday, address, phone, picture;
         $('.oEmail').html(email);
         $('.oAddress').html(address);
         $('.oPhone').html(phone);
-        $( ".src" ).replaceWith(picture)
+        $( ".src" ).replaceWith(picture);
 
 
 
