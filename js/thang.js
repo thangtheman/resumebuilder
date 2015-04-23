@@ -26,14 +26,9 @@ var name, role, aboutMe, email, birthday, address, phone, picture;
             phone = $('#inputPhone').val();
             picture = $('inputPicture').val()
 
-        console.log(name)
     // After click submit the change
     //
-    //    $("html").each(function() {
-    //        var text = $(this).html();
-    //        text = text.replace("ANDERSON SMITH", name);
-    //        $(this).html(text);
-    //    });
+
         $('.oName').html(name);
         $('.oRole').html(role);
         $('.oAboutMe').html(aboutMe);
