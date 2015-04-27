@@ -24,7 +24,7 @@ var name, role, aboutMe, email, birthday, address, phone, picture;
             birthday = $('#inputBirthday').val();
             address = $('#inputAddress').val();
             phone = $('#inputPhone').val();
-            picture = $('inputPicture').val()
+
 
     // After click submit the change
     //
@@ -36,12 +36,14 @@ var name, role, aboutMe, email, birthday, address, phone, picture;
         $('.oAddress').html(address);
         $('.oPhone').html(phone);
         $( ".src" ).replaceWith(picture);
-        $(".cw-inner").css({'background-image': 'url(' + profilePhoto + ')'});
+
 
 // After clicking submit
 
         $('#myModal').modal('hide');
-        })
+
+
+    })
 
 
 
